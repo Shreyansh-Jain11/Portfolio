@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background-image: url(groung.png); */
+    background: linear-gradient(to top right , black , rgb(0, 225, 255),rgb(63, 116, 181)
+    );
+    background-size:cover ;
+    color: rgb(245, 241, 237);
+
+    
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  
+  header .logo {
+    font-size: 3em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+  }
+  
+  nav ul li a {
+    color: #f0e9f0ee;
+    text-decoration:wavy;
+  }
+  
+  section {
+    padding: 40px 0px;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  .project {
+    margin: 20px 0;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+  }
+  
+  .project a {
+    color: white;
+    text-decoration: none;
+    background-color: #1725bc;
+    border-radius: 100px;
+    padding: 5px;
+  }
+  
+  .project a:hover {
+    background-color: aliceblue;
+    color: #090909;
+    transition: background-color 0.5s,transform 0.3s;
+    font-weight: bolder;
+    text-decoration: navajowhite;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 1px  5px;
+  }
+  
+  form input, form textarea {
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 3px solid #291b05;
+    border-radius: 50rem;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #5864e7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50rem;
+  }
+  
+  form button:hover {
+    background-color: #a4c6cb;
+  }
+  
+  footer {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5% 0;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    nav ul li {
+      display: block;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    form input, form textarea, form button {
+      width: 100%;
+    }
+  }
+ h1{
+  color: #031b1f;
+  text-align: center ;
+
+ }
+  /* Style for the header section */
+.section {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style for navigation links */
+.nav-button {
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 5px;
+    background-color: #1725bc;      /* Green background */
+    color: white;                   /* White text */
+    text-decoration: navajowhite;          /* Remove underline */
+    border-radius: 45px;             /* Rounded corners */
+    transition: background-color 0.5s, transform 0.3s;
+    font-weight: bold;
+}
+
+/* Hover effect */
+.nav-button:hover {
+    background-color: #cbd0d2;      /* Darker green on hover */
+    transform: scale(1.05);         /* Slight zoom effect */
+    color:#090909
+}
